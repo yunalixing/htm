@@ -10,7 +10,7 @@
     <form action="form_praction" method="post">
     <div class="name">
     <label for="name">姓名</label>
-    <input type="text" name="username"> 
+    <input type="text" name="username" placeholder="用户名"> 
 </div>
 <div class="password">
     <label for="password">密码</label>
@@ -32,13 +32,13 @@
     <input type="checkbox" name="hobby" value="travel">旅游
     <input type="checkbox" name="hobby" value="pets">宠物
     </div>
-    <div>
-        <label for="comment">评价</label>
-    <input type="textarea" name="textarea">
+    <div class="textarea">
+        <label for="comment">评论</label>
+    <textarea name="comment" cols="60" rows="10"></textarea>
     </div>
     <div class="select">
-        <label for="mycar">我的车</label>
-    <select>
+        <label for="mycar">我的car</label>
+    <select name="mycar">
 <option value="sabo" selected>萨博</option>
 <option value="BMW">宝马</option>
 <option value="QQ">奇瑞QQ</option>
@@ -47,6 +47,7 @@
     <div class="submit">
     <button>提交</button>
     </div>
+    <input type="hidden" name="aaa" value="63636">
     </form>
 </div>
 </body>
