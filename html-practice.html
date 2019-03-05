@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Practice</title>
+</head>
+<body>
+    <form action="form_praction" method="post">
+    <div class="name">
+    <label for="name">姓名</label>
+    <input type="text" name="username"> 
+</div>
+<div class="password">
+    <label for="password">密码</label>
+    <input type="password" name="password">
+</div>
+<div>
+    <label for="sex">性别</label>
+    <input type="radio" name="sex" value="male">男
+    <input type="radio" name="sex" value="female">女
+    </div>
+    <div>
+        <label for="sexual orientation">取向</label>
+    <input type="radio" name="sexual orientation" value="male">男
+    <input type="radio" name="sexual orientation" value="female">女
+    </div>
+    <div>
+        <label for="hobby">爱好</label>
+    <input type="checkbox" name="hobby" value="dota">dota
+    <input type="checkbox" name="hobby" value="travel">旅游
+    <input type="checkbox" name="hobby" value="pets">宠物
+    </div>
+    <div>
+        <label for="comment">评价</label>
+    <input type="textarea" name="textarea">
+    </div>
+    <div class="select">
+        <label for="mycar">我的车</label>
+    <select>
+<option value="sabo" selected>萨博</option>
+<option value="BMW">宝马</option>
+<option value="QQ">奇瑞QQ</option>
+    </select>
+    </div>
+    <div class="submit">
+    <button>提交</button>
+    </div>
+    </form>
+</div>
+</body>
+</html>
